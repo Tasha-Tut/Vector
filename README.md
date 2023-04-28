@@ -37,7 +37,7 @@
   - удаляет последний элемент.
 - Операции сравнения (<, >, <=, >=, ==, !=), задающие лексикографический порядок.
 
-Также реализована поддержку итераторов и методов для работы с ними: begin(), end(), cbegin(), cend(), rbegin(), rend(),
+Также реализована поддержка итераторов и методов для работы с ними: begin(), end(), cbegin(), cend(), rbegin(), rend(),
 crbegin(), crend(). begin()-end(), rbegin()-rend() имеют две версии, возвращающие константные и неконстантные итераторы.
 
 Внутри класса Vector определины типы-члены ValueType, Pointer, ConstPointer, Reference, ConstReference, SizeType, Iterator, ConstIterator.
